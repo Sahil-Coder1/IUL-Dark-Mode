@@ -4,9 +4,9 @@ rows.forEach((row, index) => {
   row.style.border = "0px solid #fff";
 
   if (index % 2 === 0) {
-    row.style.backgroundColor = "#3C3D37"; // Darker for even rows
+    row.style.backgroundColor = "#3C3D37"; 
   } else {
-    row.style.backgroundColor = "#444444"; // Lighter for odd rows
+    row.style.backgroundColor = "#444444";
   }
 });
 
