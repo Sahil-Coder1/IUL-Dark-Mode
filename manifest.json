@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "IUL Time - Table Enhancer",
+    "version": "1.0",
+    "description": "Enhance the functionality of the time table page.",
+    "icons": {
+      "48": "icon.png"
+    },
+   
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": [
+      "https://sms.iul.ac.in/Student/*"
+    ],
+    
+    "content_scripts": [
+      {
+        "matches": ["https://sms.iul.ac.in/Student/ProgramWiseTimeTable.aspx"],
+        "js": ["timetable.js"],
+        "css": ["styles.css"]
+      },
+      {
+        "matches": ["https://sms.iul.ac.in/Student/index.aspx"],
+        "js": ["main.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+
+
+  
