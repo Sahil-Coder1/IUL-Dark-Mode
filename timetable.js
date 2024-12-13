@@ -1,10 +1,11 @@
 const rows = document.querySelectorAll("table th, table td");
+
 rows.forEach((row, index) => {
   row.style.color = "#FAF7F0";
   row.style.border = "0px solid #fff";
 
   if (index % 2 === 0) {
-    row.style.backgroundColor = "#3C3D37"; 
+    row.style.backgroundColor = "#3C3D37";
   } else {
     row.style.backgroundColor = "#444444";
   }
