@@ -20,6 +20,17 @@
       "matches": ["https://sms.iul.ac.in/Student/index.aspx"],
       "js": ["main.js"],
       "css": ["styles.css"]
+    },
+    {
+      "matches": ["https://sms.iul.ac.in/Student/TimeTable.aspx"],
+      "js": ["todayTimeTable.js"],
+      "css": ["styles.css"]
+    }
+    ,
+    {
+      "matches": ["https://sms.iul.ac.in/Student/NewsNotices.aspx"],
+      "js": ["NewsNotices.js"],
+      "css": ["styles.css"]
     }
   ]
 }
