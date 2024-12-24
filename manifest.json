@@ -23,13 +23,23 @@
     },
     {
       "matches": ["https://sms.iul.ac.in/Student/TimeTable.aspx"],
-      "js": ["todayTimeTable.js"],
+      "js": ["timetable.js"],
       "css": ["styles.css"]
     }
     ,
     {
       "matches": ["https://sms.iul.ac.in/Student/NewsNotices.aspx"],
       "js": ["NewsNotices.js"],
+      "css": ["styles.css"]
+    },
+    {
+      "matches": ["https://sms.iul.ac.in/Student/frmPreReg.aspx"],
+      "js": ["frmPreReg.js"],
+      "css": ["styles.css"]
+    },
+    {
+      "matches": ["https://sms.iul.ac.in/Student/Datewiseattendance.aspx"],
+      "js": ["frmPreReg.js"],
       "css": ["styles.css"]
     }
   ]
