@@ -1,0 +1,47 @@
+
+{
+  "manifest_version": 3,
+  "name": "Feedback Helper",
+  "version": "1.1",
+  "description": "Fill feedback forms faster across IUL & ILI with one-click option selection.",
+  "icons": {
+    "52": "icon.png"
+  },
+
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://sms.iul.ac.in/Student/*",
+    "https://ilizone.in/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://ilizone.in/*"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": [
+      "https://sms.iul.ac.in/Student/FeedbackTheoryIQAC.aspx"
+      ],
+      "js": ["content.js"]
+    },
+    {
+      "matches": [
+      "https://sms.iul.ac.in/Student/FeedbackLabIQAC.aspx"
+      ],
+      "js": ["content.js"]
+    },
+    {
+      "matches": [
+        "https://sms.iul.ac.in/Student/FeedbackMentorIQAC.aspx"
+      ],
+      "js": ["content.js"]
+    },
+    {
+      "matches": [
+        "https://sms.iul.ac.in/Student/FeedbackTeaching.aspx"
+      ],
+      "js": ["content.js"]
+    }
+     ]
+}
